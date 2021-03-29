@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "meetings",
+    "graphene_django",
 ]
 
 MIDDLEWARE = [
@@ -67,6 +68,8 @@ TEMPLATES = [
         },
     },
 ]
+
+# GRAPHENE = {"SCHEMA": "meetings.presentation.schema"}
 
 WSGI_APPLICATION = "meetingplanner.wsgi.application"
 

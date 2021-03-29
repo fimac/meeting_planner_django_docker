@@ -1,4 +1,4 @@
-from models import Room
+from meetings.models import Room
 
 
 def add(name, floor_number, room_number):
